@@ -10,5 +10,17 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net/)",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IonicaBizau/node-ansi-parser.git"
+  },
+  "keywords": [
+    "ansi",
+    "parser"
+  ],
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/node-ansi-parser/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/node-ansi-parser"
 }
