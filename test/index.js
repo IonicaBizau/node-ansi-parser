@@ -5,3 +5,5 @@ var AnsiParser = require("../lib/index.js")
 
 console.log(input);
 console.log(AnsiParser.stringify(AnsiParser.parse(input)));
+
+console.log(AnsiParser.stringify(AnsiParser.parse("Non colored.")));
