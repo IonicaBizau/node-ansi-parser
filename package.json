@@ -1,0 +1,14 @@
+{
+  "name": "ansi-parser",
+  "version": "1.0.0",
+  "description": "Parse strings containing ANSI style characters.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net/)",
+  "license": "MIT"
+}
