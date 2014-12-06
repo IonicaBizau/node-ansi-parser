@@ -20,18 +20,29 @@ Parses the string containing ANSI styles.
  ```js
  [
    {
-       start: "\u00\u001b[1m\u001b[38;5;231",
-       end: "\u001b[0m\u001b[22m",
+       style: "\u00\u001b[1m\u001b[38;5;231",
        content: "H"
    },
    {
-      start: "\u00\u001b[1m\u001b[38;5;231",
+      style: "\u00\u001b[1m\u001b[38;5;231",
       content: "e"
-      end: "\u001b[0m\u001b[22m",
    },
    ...
  ]
  ```
+
+## `getAtIndex(input, noAnsi, index)`
+Returns the content and ANSI style at known index.
+
+### Params
+- **String** `input`: The input string.
+- **String** `noAnsi`: The input string without containing ansi styles.
+- **Number** `index`: The character index.
+
+### Return
+- **Object** An object containing the following fields:
+ - `style` (String): The ANSI style at provided index.
+ - `content` (String): The content (character) at provided index.
 
 ## `removeAnsi(input)`
 Removes ANSI styles from the input string.
@@ -59,8 +70,6 @@ Adds a new char into array.
 - **String** `c`: The char to add.
 - **String** `s`: ANSI start style.
 - **String** `e`: ANSI end style.
-
-
 
 # How to contribute
 
