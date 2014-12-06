@@ -13,6 +13,9 @@
   "contributors": [
     "Unihedron <vyfcalt@gmail.com>"
   ],
+  "devDependencies": {
+    "couleurs": "1.1.0"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
