@@ -1,6 +1,6 @@
 {
   "name": "ansi-parser",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Parse strings containing ANSI style characters.",
   "main": "lib/index.js",
   "directories": {
