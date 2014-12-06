@@ -5,7 +5,7 @@ var AnsiParser = require("../lib/index.js")
         Couleurs.rgb("Text with one color", 255, 0, 0)
       , Couleurs.bold("Bold text", 255, 0, 0)
       , Couleurs.rgb("Hello", 255, 0, 0) + " World! " + Couleurs.rgb("Isn't this cool?", 0, 255, 0)
-      , Fs.readFileSync("./vim.txt", "utf-8")
+      , Fs.readFileSync(__dirname + "/vim.txt", "utf-8")
     ];
   ;
 
