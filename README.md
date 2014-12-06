@@ -20,18 +20,29 @@ Parses the string containing ANSI styles.
  ```js
  [
    {
-       start: "\u00\u001b[1m\u001b[38;5;231",
-       end: "\u001b[0m\u001b[22m",
+       style: "\u00\u001b[1m\u001b[38;5;231",
        content: "H"
    },
    {
-      start: "\u00\u001b[1m\u001b[38;5;231",
+      style: "\u00\u001b[1m\u001b[38;5;231",
       content: "e"
-      end: "\u001b[0m\u001b[22m",
    },
    ...
  ]
  ```
+
+## `getAtIndex(input, noAnsi, index)`
+Returns the content and ANSI style at known index.
+
+### Params
+- **String** `input`: The input string.
+- **String** `noAnsi`: The input string without containing ansi styles.
+- **Number** `index`: The character index.
+
+### Return
+- **Object** An object containing the following fields:
+ - `style` (String): The ANSI style at provided index.
+ - `content` (String): The content (character) at provided index.
 
 ## `removeAnsi(input)`
 Removes ANSI styles from the input string.
@@ -60,10 +71,7 @@ Adds a new char into array.
 - **String** `s`: ANSI start style.
 - **String** `e`: ANSI end style.
 
-
-
 # How to contribute
-
 1. File an issue in the repository, using the bug tracker, describing the
    contribution you'd like to make. This will help us to get you started on the
    right foot.
@@ -72,6 +80,13 @@ Adds a new char into array.
 3. Commit your changes in that branch.
 4. Open a pull request, and reference the initial issue in the pull request
    message.
+
+# Changelog
+## `1.0.0`
+ - Initial stable release
+
+## `0.0.x`
+ - Prereleases.
 
 # License
 See the [LICENSE](./LICENSE) file.

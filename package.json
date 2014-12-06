@@ -1,18 +1,22 @@
 {
   "name": "ansi-parser",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Parse strings containing ANSI style characters.",
   "main": "lib/index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/index.js"
   },
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net/)",
   "contributors": [
     "Unihedron <vyfcalt@gmail.com>"
+    "Jongware http://stackoverflow.com/users/2564301/jongware"
   ],
+  "devDependencies": {
+    "couleurs": "1.1.0"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
