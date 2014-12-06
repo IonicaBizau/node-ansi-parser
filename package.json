@@ -11,7 +11,7 @@
   },
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net/)",
   "contributors": [
-    "Unihedron <vyfcalt@gmail.com>"
+    "Unihedron <vyfcalt@gmail.com>",
     "Jongware http://stackoverflow.com/users/2564301/jongware"
   ],
   "devDependencies": {
