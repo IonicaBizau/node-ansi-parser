@@ -72,7 +72,6 @@ Adds a new char into array.
 - **String** `e`: ANSI end style.
 
 # How to contribute
-
 1. File an issue in the repository, using the bug tracker, describing the
    contribution you'd like to make. This will help us to get you started on the
    right foot.
