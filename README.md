@@ -82,6 +82,10 @@ Adds a new char into array.
    message.
 
 # Changelog
+## `1.2.0`
+ - Replace new line char at the end of the string result.
+ - Do not add the reset byte twice.
+
 ## `1.1.0`
  - Improved parsing performance.
 
