@@ -82,6 +82,9 @@ Adds a new char into array.
    message.
 
 # Changelog
+## `1.1.0`
+ - Improved parsing performance.
+
 ## `1.0.0`
  - Initial stable release
 
