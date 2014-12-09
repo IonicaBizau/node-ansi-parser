@@ -2,10 +2,10 @@ var AnsiParser = require("../lib/index.js")
   , Fs = require("fs")
   , Couleurs = require("couleurs")()
   , tests = [
-        Couleurs.rgb("Text with one color", 255, 0, 0)
+        Couleurs.fg("Text with one color", 255, 0, 0)
       , Couleurs.bold("Bold text", 255, 0, 0)
-      , "| " + Couleurs.rgb("12", 255, 0, 0)
-      , Couleurs.rgb("Hello", 255, 0, 0) + " World! " + Couleurs.rgb("Isn't this cool?", 0, 255, 0)
+      , "| " + Couleurs.fg("12", 255, 0, 0)
+      , Couleurs.fg("Hello", 255, 0, 0) + " World! " + Couleurs.fg("Isn't this cool?", 0, 255, 0)
       , Fs.readFileSync(__dirname + "/image", "utf-8")
     ];
   ;

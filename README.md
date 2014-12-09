@@ -82,6 +82,10 @@ Adds a new char into array.
    message.
 
 # Changelog
+## `1.3.0`
+ - Updated `couleurs` dependency to `2.0.0`.
+ - Cache reset bytes.
+
 ## `1.2.0`
  - Replace new line char at the end of the string result.
  - Do not add the reset byte twice.
