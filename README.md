@@ -82,22 +82,7 @@ Adds a new char into array.
    message.
 
 # Changelog
-## `1.3.0`
- - Updated `couleurs` dependency to `2.0.0`.
- - Cache reset bytes.
-
-## `1.2.0`
- - Replace new line char at the end of the string result.
- - Do not add the reset byte twice.
-
-## `1.1.0`
- - Improved parsing performance.
-
-## `1.0.0`
- - Initial stable release
-
-## `0.0.x`
- - Prereleases.
+See the [releases page](https://github.com/IonicaBizau/node-ansi-parser/releases).
 
 # License
 See the [LICENSE](./LICENSE) file.
