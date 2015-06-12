@@ -17,7 +17,7 @@
   "devDependencies": {
     "couleurs": "4.0.0"
   },
-  "license": "MIT",
+  "license": "KINDLY",
   "repository": {
     "type": "git",
     "url": "https://github.com/IonicaBizau/node-ansi-parser.git"
