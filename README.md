@@ -113,9 +113,6 @@ Adds a new char into array.
 - **String** `s`: ANSI start style.
 - **String** `e`: ANSI end style.
 
-#### Return
-- ****
-
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
