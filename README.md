@@ -59,19 +59,20 @@ Parses the string containing ANSI styles.
 
 #### Return
 - **Array** An array of object like below:
- ```js
- [
-   {
-       style: &#34;\u00\u001b[1m\u001b[38;5;231&#34;,
-       content: &#34;H&#34;
-   },
-   {
-      style: &#34;\u00\u001b[1m\u001b[38;5;231&#34;,
-      content: &#34;e&#34;
-   },
-   ...
- ]
- ```
+
+   ```js
+   [
+     {
+         style: &#34;\u00\u001b[1m\u001b[38;5;231&#34;,
+         content: &#34;H&#34;
+     },
+     {
+        style: &#34;\u00\u001b[1m\u001b[38;5;231&#34;,
+        content: &#34;e&#34;
+     },
+     ...
+   ]
+   ```
 
 ### `getAtIndex(input, noAnsi, index)`
 Returns the content and ANSI style at known index.
