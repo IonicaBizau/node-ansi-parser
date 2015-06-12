@@ -1,11 +1,11 @@
 var AnsiParser = require("../lib/index.js")
   , Fs = require("fs")
-  , Couleurs = require("couleurs")()
+  , Couleurs = require("couleurs")
   , tests = [
-        Couleurs.fg("Text with one color", 255, 0, 0)
+        Couleurs("Text with one color", [255, 0, 0])
       , Couleurs.bold("Bold text", 255, 0, 0)
-      , "| " + Couleurs.fg("12", 255, 0, 0)
-      , Couleurs.fg("Hello", 255, 0, 0) + " World! " + Couleurs.fg("Isn't this cool?", 0, 255, 0)
+      , "| " + Couleurs("12", [255, 0, 0])
+      , Couleurs("Hello", [255, 0, 0]) + " World! " + Couleurs("Isn't this cool?", [0, 255, 0])
       , Fs.readFileSync(__dirname + "/image", "utf-8")
     ];
   ;
