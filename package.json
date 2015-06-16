@@ -15,7 +15,7 @@
     "Jongware http://stackoverflow.com/users/2564301/jongware"
   ],
   "devDependencies": {
-    "couleurs": "4.0.0"
+    "couleurs": "5.0.0"
   },
   "license": "KINDLY",
   "repository": {
