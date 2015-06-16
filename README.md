@@ -63,12 +63,12 @@ Parses the string containing ANSI styles.
    ```js
    [
      {
-         style: &#34;\u00\u001b[1m\u001b[38;5;231&#34;,
-         content: &#34;H&#34;
+         style: "\u00\u001b[1m\u001b[38;5;231",
+         content: "H"
      },
      {
-        style: &#34;\u00\u001b[1m\u001b[38;5;231&#34;,
-        content: &#34;e&#34;
+        style: "\u00\u001b[1m\u001b[38;5;231",
+        content: "e"
      },
      ...
    ]
