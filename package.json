@@ -1,6 +1,6 @@
 {
   "name": "ansi-parser",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "description": "Parse strings containing ANSI style characters.",
   "main": "lib/index.js",
   "directories": {
@@ -17,7 +17,7 @@
   "devDependencies": {
     "couleurs": "5.0.0"
   },
-  "license": "KINDLY",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/IonicaBizau/node-ansi-parser.git"
