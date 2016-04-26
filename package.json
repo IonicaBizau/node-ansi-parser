@@ -1,6 +1,6 @@
 {
   "name": "ansi-parser",
-  "version": "3.2.1",
+  "version": "3.2.2",
   "description": "Parse strings containing ANSI style characters.",
   "main": "lib/index.js",
   "directories": {
@@ -29,5 +29,16 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/node-ansi-parser/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/node-ansi-parser"
+  "homepage": "https://github.com/IonicaBizau/node-ansi-parser",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
