@@ -1,14 +1,18 @@
+
 # ansi-parser [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/ansi-parser.svg)](https://www.npmjs.com/package/ansi-parser) [![Downloads](https://img.shields.io/npm/dt/ansi-parser.svg)](https://www.npmjs.com/package/ansi-parser) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Parse strings containing ANSI style characters.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save ansi-parser
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
 // Dependencies
@@ -33,7 +37,8 @@ console.log(AnsiParser.removeAnsi("\u001b[1m\u001b[38;5;231mHello\u001b[0m\u001b
 // => "Hello World"
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `parse(input)`
 Parses the string containing ANSI styles.
@@ -98,33 +103,28 @@ Adds a new char into array.
 - **String** `s`: ANSI start style.
 - **String** `e`: ANSI end style.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [`bug-killer`](https://github.com/IonicaBizau/node-bug-killer)
 
- - [`cli-box`](https://github.com/IonicaBizau/node-cli-box)
+ - [`bug-killer`](https://github.com/IonicaBizau/node-bug-killer)—Simple way to log messages in stdout or other stream.
+ - [`cli-box`](https://github.com/IonicaBizau/node-cli-box)—A library to generate ASCII boxes via NodeJS
+ - [`cli-cal`](https://github.com/fnogatz/cli-cal) (by Falco Nogatz)—Github-like calendar graph for the CLI
+ - [`cli-gh-cal`](https://github.com/IonicaBizau/cli-gh-cal)—GitHub like calendar graphs in command line.
+ - [`ghcal`](https://github.com/IonicaBizau/ghcal)—See the GitHub contributions calendar of a user in the command line.
+ - [`git-stats-colors`](https://github.com/IonicaBizau/node-git-stats-colors)—Adds colors to the git-stats inputs.
+ - [`github-stats`](https://github.com/IonicaBizau/github-stats)—Visualize stats about GitHub users and projects in your terminal.
+ - [`idea`](https://github.com/IonicaBizau/idea)—A lightweight CLI tool and module for keeping ideas in a safe place quick and easy.
+ - [`le-table`](https://github.com/IonicaBizau/le-table)—Another NodeJS module for creating ASCII tables.
+ - [`overlap`](https://github.com/IonicaBizau/node-overlap)—Overlap two strings that contain new lines. Useful for ASCII drawings.
+ - [`tilda`](https://github.com/IonicaBizau/tilda)—Tiny module for building command line tools.
 
- - [`cli-cal`](https://github.com/fnogatz/cli-cal) by Falco Nogatz
-
- - [`cli-gh-cal`](https://github.com/IonicaBizau/cli-gh-cal)
-
- - [`clp`](https://github.com/IonicaBizau/node-clp)
-
- - [`ghcal`](https://github.com/IonicaBizau/ghcal)
-
- - [`git-stats-colors`](https://github.com/IonicaBizau/node-git-stats-colors)
-
- - [`github-stats`](https://github.com/IonicaBizau/github-stats)
-
- - [`idea`](https://github.com/IonicaBizau/idea)
-
- - [`overlap`](https://github.com/IonicaBizau/node-overlap)
-
-## License
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
