@@ -1,5 +1,7 @@
 
-# ansi-parser [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/ansi-parser.svg)](https://www.npmjs.com/package/ansi-parser) [![Downloads](https://img.shields.io/npm/dt/ansi-parser.svg)](https://www.npmjs.com/package/ansi-parser) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+# ansi-parser
+
+ [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/ansi-parser.svg)](https://www.npmjs.com/package/ansi-parser) [![Downloads](https://img.shields.io/npm/dt/ansi-parser.svg)](https://www.npmjs.com/package/ansi-parser) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Parse strings containing ANSI style characters.
 
@@ -120,6 +122,7 @@ If you are using this library in one of your projects, add it in this list. :spa
  - [`git-stats-colors`](https://github.com/IonicaBizau/node-git-stats-colors)—Adds colors to the git-stats inputs.
  - [`github-stats`](https://github.com/IonicaBizau/github-stats)—Visualize stats about GitHub users and projects in your terminal.
  - [`idea`](https://github.com/IonicaBizau/idea)—A lightweight CLI tool and module for keeping ideas in a safe place quick and easy.
+ - [`jupyter-dashboards-server`](https://github.com/jupyter-incubator/dashboards_server#readme) (by Jupyter Development Team)—Serves Jupyter notebooks as standalone dashboards
  - [`le-table`](https://github.com/IonicaBizau/le-table)—Another NodeJS module for creating ASCII tables.
  - [`overlap`](https://github.com/IonicaBizau/node-overlap)—Overlap two strings that contain new lines. Useful for ASCII drawings.
  - [`tilda`](https://github.com/IonicaBizau/tilda)—Tiny module for building command line tools.
