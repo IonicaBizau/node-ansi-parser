@@ -1,6 +1,6 @@
 {
   "name": "ansi-parser",
-  "version": "3.2.4",
+  "version": "3.2.5",
   "description": "Parse strings containing ANSI style characters.",
   "main": "lib/index.js",
   "directories": {
@@ -34,6 +34,7 @@
     "bin/",
     "app/",
     "lib/",
+    "build/",
     "dist/",
     "src/",
     "resources/",
