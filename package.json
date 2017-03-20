@@ -1,6 +1,6 @@
 {
   "name": "ansi-parser",
-  "version": "3.2.5",
+  "version": "3.2.6",
   "description": "Parse strings containing ANSI style characters.",
   "main": "lib/index.js",
   "directories": {
@@ -9,7 +9,7 @@
   "scripts": {
     "test": "node test/index.js"
   },
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "contributors": [
     "Unihedron <vyfcalt@gmail.com>",
     "Jongware http://stackoverflow.com/users/2564301/jongware"
@@ -34,12 +34,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
