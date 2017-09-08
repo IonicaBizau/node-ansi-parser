@@ -1,6 +1,6 @@
 {
   "name": "ansi-parser",
-  "version": "3.2.7",
+  "version": "3.2.8",
   "description": "Parse strings containing ANSI style characters.",
   "main": "lib/index.js",
   "directories": {
@@ -40,6 +40,9 @@
     "resources/",
     "menu/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ]
 }
