@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Parses the string containing ANSI styles.
 
 #### Params
+
 - **String** `input`: The input string.
 
 #### Return
@@ -29,6 +30,7 @@ Parses the string containing ANSI styles.
 Returns the content and ANSI style at known index.
 
 #### Params
+
 - **String** `input`: The input string.
 - **String** `noAnsi`: The input string without containing ansi styles.
 - **Number** `index`: The character index.
@@ -42,6 +44,7 @@ Returns the content and ANSI style at known index.
 Removes ANSI styles from the input string.
 
 #### Params
+
 - **String** `input`: The input string.
 
 #### Return
@@ -51,6 +54,7 @@ Removes ANSI styles from the input string.
 Stringifies an array of objects in the format defined by `AnsiParser`.
 
 #### Params
+
 - **Array** `arr`: The input array.
 
 #### Return
@@ -60,6 +64,7 @@ Stringifies an array of objects in the format defined by `AnsiParser`.
 Adds a new char into array.
 
 #### Params
+
 - **Array** `arr`: The input array.
 - **String** `c`: The char to add.
 - **String** `s`: ANSI start style.
